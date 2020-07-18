@@ -21,6 +21,14 @@ p{
   font-weight: 300;
 }
 
+p + p{
+  margin: 1% 0;
+}
+
+hr{
+  margin:1%;
+}
+
 /*CABEÇALHO*/
 header{
   margin: 32px;
@@ -70,9 +78,6 @@ main section div.logo img{
   width: 100%;
 }
 
-p + p{
-  margin: 1% 0;
-}
 
 /*FOOTER*/
 footer{

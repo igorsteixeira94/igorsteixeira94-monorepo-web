@@ -7,5 +7,5 @@
 
 2. Site Anna Bella Modelo.
    - No curso: Foi usado html e css;
-   - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido), ainda incrementei com media query para ajustar o header.
+   - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido).
    - Demo: https://igorsteixeira94.github.io/monorepo-web/annabella/

@@ -1,0 +1,79 @@
+/*Configurações gerais*/
+*{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Baloo Da 2', cursive;
+  text-decoration: none;
+  color:black;
+}
+
+body{
+  background: #d2d2c1 url("../img/fundo.png") ;
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1{
+  color: hsl(60, 7%, 48%);
+  font-size: 1.2em;
+  padding: 16px 8px;
+}
+p{
+  padding-left: 8px;
+}
+p+p{
+  margin-top:8px;
+}
+article{
+  background: hsl(60, 25%, 88%);
+}
+img{
+  max-width: 600px;
+  width: 100%;
+  margin:8px 0;
+}
+
+img#capa{
+  max-width: 900px;
+}
+
+
+/*Fim das configurações gerais*/
+
+
+/*Cabeçalho*/
+header nav ul{
+  background:hsl(60, 14%, 74%);
+  text-transform: uppercase;
+  display: flex;
+}
+
+header nav ul li{
+  padding: 8px;
+}
+
+header nav ul li a{
+  color:hsl(219, 17%, 35%);
+  font-weight: bold;
+}
+
+header nav ul li a:hover{
+  color:hsl(218, 9%, 49%);
+}
+
+/**/
+
+article section.campaign {
+  text-align: center;
+}
+article section.campaign p {
+  text-align: justify;
+  margin: 4px 0;
+}
+
+/*Rodape*/
+footer{
+  text-align: center;
+  font-weight: bold;
+  margin:8px
+}

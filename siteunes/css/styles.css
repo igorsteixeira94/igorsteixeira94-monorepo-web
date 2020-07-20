@@ -35,7 +35,15 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+
 }
+@media(max-width:560px) {
+  header {
+    flex-direction: column;
+  }
+}
+
 
 /*MENU*/
 
@@ -51,7 +59,9 @@ nav ul.menu li{
 nav ul.menu li a {
   font-weight: 500;
   color:#343c5c;
+   
 }
+
 nav ul.menu li a:hover{
   color: #6b7bab;
 }

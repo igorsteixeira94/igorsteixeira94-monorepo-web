@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  font-size: 1em;
+  background:hsl(0, 0%, 90%) ;
+}
+
+img{
+  width: 100%;
+  max-width: 620px;
+}
+
+a {
+  color: hsl(44, 100%, 48%);
+}
+a:hover{
+
+  text-decoration: underline;
+}
+
+h2{
+  color:hsl(0, 0%, 34%);
+  background:hsl(0, 0%, 80%);
+  padding: 4px;
+}
+
+
+/*CABEÇALHO*/
+header{
+  text-align: center;
+  background:hsl(44, 100%, 48%);
+  padding: 15px;
+}
+
+header h1{
+  color: hsl(0, 0%, 31%);
+  font-size: 2.5em;
+}
+
+header h1 span{
+  color:hsl(0, 0%, 100%);
+}
+header nav ul{
+  padding: 16px;
+}
+
+header nav ul li{
+  display: inline;
+}
+
+header nav ul li a{
+  color: hsl(0, 0%, 100%);
+  padding: 8px;
+}
+
+header nav ul li a:hover{
+  color:hsl(44, 100%, 48%);
+  background: hsl(0, 0%, 100%);
+  text-decoration: none;
+
+}
+
+/*Main*/
+
+main{
+  display: flex;
+  margin: 0 auto;
+  max-width: 920px;
+  padding: 16px;
+}
+
+/*Article - area postagens*/
+article.post{
+  width: 660px;
+}
+
+/*Sections-postagens*/
+article.post section{
+  background:hsl(0, 0%, 100%);
+  padding: 24px;
+}
+article.post section h1 {
+  color: hsl(44, 100%, 48%);
+  font-size: 1.5em;
+}
+
+article.post section div.date{
+  font-size: 0.8em;
+  border-bottom: 1px solid rgb(211, 206, 206);
+  margin: 4px 0;
+  padding-bottom: 8px;
+}
+
+article.post section + section {
+  margin-top: 16px;
+}
+
+/*Aside*/
+aside {
+  width: 240px;
+}
+
+.lateral-content{
+  margin-left: 16px;
+  background: hsl(0, 0%, 100%);
+  padding: 8px;
+  font-size: 0.9em;
+  margin-bottom: 16px;
+}
+
+.lateral-content section{
+  margin: 4px;
+}
+
+.lateral-content section + section{
+  border-top: 1px dotted rgb(211, 206, 206);
+  margin-top: 4px;
+}
+
+.lateral-content section h4{
+  font-weight: 300;
+  margin: 4px 0;
+}
+
+/*Categories-lateral*/
+.lateral-content nav ul li{
+  padding: 4px;
+}
+
+
+/*Footer*/
+footer{
+  text-align: center;
+  background: hsl(0, 0%, 80%);
+  padding: 16px 0;
+  max-width: 920px;
+  margin: 8px auto;
+}

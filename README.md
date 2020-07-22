@@ -9,11 +9,10 @@
    - No curso: Foi usado html e css;
    - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido).
    - Demo: https://igorsteixeira94.github.io/monorepo-web/annabella/
-<<<<<<< HEAD
+
 
 3. Site TecBlog.
    - No curso: Foi usado html e css e layout fluido;
    - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido).
    - Demo: https://igorsteixeira94.github.io/monorepo-web/tecblog/
-=======
->>>>>>> a076601f7360eb2eac52fd9b5fbdac32c94514d4
+

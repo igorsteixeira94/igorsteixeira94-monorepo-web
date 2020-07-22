@@ -2,7 +2,7 @@
 
 1. Site Universidade UNES.
    - No curso: Foi usado apenas a tag table do html;
-   - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido), ainda incrementei com media query para ajustar o header.
+   - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido), incrementei com media query para ajustar o header.
    - Demo: https://igorsteixeira94.github.io/monorepo-web/siteunes/
 
 2. Site Anna Bella Modelo.

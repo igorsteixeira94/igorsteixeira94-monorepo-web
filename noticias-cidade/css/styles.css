@@ -1,0 +1,214 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  background: #fff url(../img/fundo.png) repeat-x;
+}
+/*Formulario*/
+form{
+  background: #fff;
+  padding:4px;
+}
+
+/*links*/
+a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: hsl(343, 97%, 35%);
+}
+
+/*Paragrafos*/
+p{
+  margin: 4px 0;
+  font-size: 18px;
+}
+
+/*titulos*/
+h3{
+  background: #294c71;
+  color: #fff;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+h4{
+  background: hsl(343, 97%, 35%);
+  color: #fff;
+  padding: 4px;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+h5{
+  text-transform: uppercase;
+  color: #294c71;
+  font-size: 12px;
+}
+/*Caixas*/
+.caixa {
+	padding: 5px;
+	background: #f3f3f3 url(../img/fundo-caixa.png);
+}
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+/*MENU*/
+header{
+  width: 750px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  padding-top: 25px;
+  background: url(../img/detalhe-topo.png) no-repeat right;
+  height: 180px;
+}
+
+/*MENU - Navegação*/
+header nav ul{
+  display: flex;
+  margin-top: 20px;
+}
+
+header nav ul li{
+
+  background-color: hsl(343, 97%, 35%);
+}
+
+header nav ul li + li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(../img/divisor.png);
+}
+
+header nav ul li a{
+  color: #fff;
+  text-transform: capitalize;
+  padding: 14px 20px;
+}
+
+header nav ul li a:hover{
+  color: #69001d;
+}
+
+body.home li#home,
+body.brasil li#brasil,
+body.internacional li#internacional,
+body.economia li#economia,
+body.saude li#saude,
+body.ciencia li#ciencia,
+body.fotos li#fotos
+{
+  background: #de003e;
+  
+}
+
+body.home li#home a ,
+body.brasil li#brasil a,
+body.internacional li#internacional a,
+body.economia li#economia a,
+body.saude li#saude a,
+body.ciencia li#ciencia a,
+body.fotos li#fotos a
+{
+  pointer-events: none;
+}
+/*Main*/
+.grid-2col{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap:20px;
+}
+.grid-3col{
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-column-gap:20px;
+}
+
+main{
+  width: 750px;
+  margin: 0 auto;
+}
+
+aside{
+  max-width: 150px;
+}
+aside nav ul li{
+  background: #fff;
+  border-bottom: 1px solid rgb(219, 218, 218);
+}
+aside nav ul li a{
+  color: black;
+  padding: 8px;
+}
+aside nav ul li a:hover{
+  color: #a1a1a1;
+  background: url(../img/marcador.png) no-repeat left center;
+  padding-left: 20px;
+}
+/*Mundo*/
+
+.mundo img{
+  width: 80px;
+  height:60px;
+  margin:8px;
+}
+.mundo nav ul li{
+  border-bottom:1px solid rgb(219, 218, 218);
+}
+.mundo nav ul li a{
+  display: flex;
+  align-items: center;
+}
+.mundo nav ul li a:hover{
+  background: rgb(214, 214, 214);
+}
+.mundo nav ul li div p{
+  font-size: 13px;
+  color: black;
+  font-weight: normal;
+}
+
+/*Footer*/
+footer{
+  clear: both;
+  margin-top: 20px;
+  background: #294c71;
+  padding: 20px;
+  color:#fff;
+}
+
+footer div{
+  width: 750px;
+  margin: 0 auto;
+}
+
+
+section + section{
+  margin-top: 16px;
+}
+
+
+
+input{
+  margin: 4px 0;
+  padding:4px;
+  border:1px solid rgb(219, 218, 218);
+  border-radius: 4px;
+}
+button{
+  
+  background: hsl(343, 97%, 35%);
+  color: #fff;
+  padding:8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}

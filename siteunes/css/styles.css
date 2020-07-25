@@ -6,50 +6,43 @@
   font-family: 'Roboto', sans-serif;
   text-decoration-line: none;
 }
+body{
+  width: 900px;
+  margin:0 auto;
+}
 
 ul{
   list-style: none;
 }
 
 h1{
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: 700;
-  margin: 3% 0;
+  margin: 20px 0;
 }
 
 p{
   font-weight: 300;
 }
 
-p + p{
-  margin: 1% 0;
+p + p, hr{
+  margin: 16px 0;
 }
 
-hr{
-  margin:2% 0;
-}
 
 /*CABEÇALHO*/
 header{
-  margin: 32px;
+  margin: 32px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-
 }
-@media(max-width:560px) {
-  header {
-    flex-direction: column;
-  }
-}
-
 
 /*MENU*/
 
 nav ul.menu{
   display: flex;
-  width: 100%;
 }
 
 nav ul.menu li{
@@ -65,34 +58,12 @@ nav ul.menu li a {
 nav ul.menu li a:hover{
   color: #6b7bab;
 }
-/*MAIN*/
-
-main{
-  margin: 0 2%;
-}
-
-main section{
-  margin: 32px auto;
-  max-width: 900px;
-}
-
-main section.about{
-  display:flex;
-  align-items: center;
-  flex-direction: column;
-
-}
-
-main section div.logo img{
-  width: 100%;
-}
-
 
 /*FOOTER*/
 footer{
   text-align: center;
-  padding:1.5%;
-  font-size: 0.9em;
+  padding: 24px;
+  font-size: 15px;
 }
 
 /*OL REASONS*/
@@ -103,12 +74,13 @@ main section ol{
 
 /*FORM*/
 main form{
+  
   font-weight: 300;
   display: flex;
   flex-direction: column;
-
   margin: 32px auto;
-  max-width: 500px;
+  width: 500px;
+
 }
 
 main form input{
@@ -116,7 +88,7 @@ main form input{
 }
 
 button{
-  margin: 1%;
+  margin: 8px;
   width: 56px;
 
 }

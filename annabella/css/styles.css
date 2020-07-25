@@ -10,12 +10,13 @@
 
 body{
   background: #d2d2c1 url("../img/fundo.png") ;
-  max-width: 900px;
+  width: 900px;
   margin: 0 auto;
 }
+
 h1{
   color: hsl(60, 7%, 48%);
-  font-size: 1.2em;
+  font-size: 24px;
   padding: 16px 8px;
 }
 p{
@@ -28,13 +29,12 @@ article{
   background: hsl(60, 25%, 88%);
 }
 img{
-  max-width: 600px;
-  width: 100%;
+  width: 600px;
   margin:8px 0;
 }
 
 img#capa{
-  max-width: 900px;
+  width: 900px;
 }
 
 

@@ -7,7 +7,7 @@
 }
 
 body{
-  font-size: 1em;
+  font-size: 16px;
   background:hsl(0, 0%, 90%) ;
 }
 
@@ -40,7 +40,7 @@ header{
 
 header h1{
   color: hsl(0, 0%, 31%);
-  font-size: 2.5em;
+  font-size: 40px;
 }
 
 header h1 span{
@@ -87,11 +87,11 @@ article.post section{
 }
 article.post section h1 {
   color: hsl(44, 100%, 48%);
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 article.post section div.date{
-  font-size: 0.8em;
+  font-size: 15px;
   border-bottom: 1px solid rgb(211, 206, 206);
   margin: 4px 0;
   padding-bottom: 8px;
@@ -110,7 +110,7 @@ aside {
   margin-left: 16px;
   background: hsl(0, 0%, 100%);
   padding: 8px;
-  font-size: 0.9em;
+  font-size: 14px;
   margin-bottom: 16px;
 }
 

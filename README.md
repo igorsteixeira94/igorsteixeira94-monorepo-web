@@ -1,19 +1,20 @@
-## Repositório com projetos do curso: https://www.udemy.com/course/web-completo/
+### Repositório com projetos do curso: https://www.udemy.com/course/web-completo/
 
 1. Sites com Html5 e Css3
 
-      1. Site Universidade UNES.
-         - Utilizo HTML5 (web semantico) e CSS3 (layout fluido), incrementei com media query para ajustar o header.
+      1. Site Universidade UNES com layout fixo.
+         - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/siteunes
          - Demo: https://igorsteixeira94.github.io/monorepo-web/siteunes/
 
-      2. Site Anna Bella Modelo.
-         - No curso: Foi usado html e css;
-         - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido).
+      2. Site Anna Bella Modelo com layout fixo.
+         - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/annabella
          - Demo: https://igorsteixeira94.github.io/monorepo-web/annabella/
 
-
-      3. Site TecBlog.
-         - No curso: Foi usado html e css e layout fluido;
-         - Minha Solução: Utilizo HTML5 (web semantico) e CSS3 (layout fluido).
+      3. Site TecBlog com layout fluído.
+         - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/tecblog
          - Demo: https://igorsteixeira94.github.io/monorepo-web/tecblog/
+         
+      4. Site Notícias Cidade com layout fixo e css grid.
+         - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/noticias-cidade
+         - Demo: https://igorsteixeira94.github.io/monorepo-web/noticias-cidade/
 

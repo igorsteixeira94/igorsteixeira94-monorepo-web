@@ -16,9 +16,11 @@ img{
   max-width: 620px;
 }
 
-a {
+/*Classe para a cor de letra amarela*/
+.yellowWord{
   color: hsl(44, 100%, 48%);
 }
+
 a:hover{
 
   text-decoration: underline;
@@ -54,7 +56,7 @@ header nav ul li{
   display: inline;
 }
 
-header nav ul li a{
+header nav ul li a.yellowWord{
   color: hsl(0, 0%, 100%);
   padding: 8px;
 }
@@ -86,7 +88,6 @@ article.post section{
   padding: 24px;
 }
 article.post section h1 {
-  color: hsl(44, 100%, 48%);
   font-size: 24px;
 }
 

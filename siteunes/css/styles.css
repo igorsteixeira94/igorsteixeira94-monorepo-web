@@ -72,7 +72,7 @@ main section ol{
   font-weight: 300;
 }
 
-/*FORM*/
+/*Formulario*/
 main form{
   
   font-weight: 300;
@@ -82,11 +82,12 @@ main form{
   width: 500px;
 
 }
-
+/*inputs do formulario*/
 main form input{
   margin: 8px 0;
 }
 
+/*botoes*/
 button{
   margin: 8px;
   width: 56px;

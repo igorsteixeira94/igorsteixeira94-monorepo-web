@@ -60,6 +60,10 @@ h5{
 	margin-top: 5px;
 }
 
+/*margem das sections*/
+section + section{
+  margin-top: 16px;
+}
 
 /*MENU*/
 header{
@@ -136,9 +140,9 @@ main{
   width: 750px;
   margin: 0 auto;
 }
-
+/*Barra lateral Entrevistas/News*/
 aside{
-  max-width: 150px;
+  max-width: 200px;
 }
 aside nav ul li{
   background: #fff;
@@ -153,6 +157,24 @@ aside nav ul li a:hover{
   background: url(../img/marcador.png) no-repeat left center;
   padding-left: 20px;
 }
+/*Input - news*/
+input{
+  margin: 4px 0;
+  padding:4px;
+  border:1px solid rgb(219, 218, 218);
+  border-radius: 4px;
+}
+/*Botão - news*/
+button{
+  
+  background: hsl(343, 97%, 35%);
+  color: #fff;
+  padding:8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 /*Mundo*/
 
 .mundo img{
@@ -176,39 +198,17 @@ aside nav ul li a:hover{
   font-weight: normal;
 }
 
-/*Footer*/
+/*Rodapé*/
 footer{
-  clear: both;
   margin-top: 20px;
   background: #294c71;
   padding: 20px;
   color:#fff;
 }
 
-footer div{
+footer span{
+  display: block;
   width: 750px;
   margin: 0 auto;
 }
 
-
-section + section{
-  margin-top: 16px;
-}
-
-
-
-input{
-  margin: 4px 0;
-  padding:4px;
-  border:1px solid rgb(219, 218, 218);
-  border-radius: 4px;
-}
-button{
-  
-  background: hsl(343, 97%, 35%);
-  color: #fff;
-  padding:8px;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-}

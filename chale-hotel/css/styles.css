@@ -1,193 +1,191 @@
-/* Estrutura do site
-*/
-* {
-	margin:0;
-	padding: 0;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-body {
-	font-family: Helvetica, "Trebuchet MS", sans-serif;
-	background: #fff url(../img/bg.png);
-	margin: 15px;
+body{
+  margin:15px;
+  font-family: Helvetica,"Trebuchet MS";
+  background: url(../img//bg.png);
+  max-width: 1180px;
+
+  min-width: 740px;
+  margin: 0 auto;
 }
 
-#container {
-	background: #ede9cc url(../img/bg-container.png) top center repeat-y;
-	margin: 0 auto;
-	min-width: 740px;
-	max-width: 1180px;
+/*Area menu*/
+header{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  background:hsl(50, 54%, 69%);
+  height: 250px;
 }
 
-#topo {
-	position: relative;
-	background: #dbcd87;
-	height: 15.4em;
-	min-height: 250px;
+/*menu area login*/
+#area-logo{
+  width: 100%;
+  height: 250px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+  background: url(../img/topo-imagem-principal2.png) no-repeat;
+  /*Qd maior, mais a frente o elemento se encontra*/
+}
+/*Logo*/
+#area-logo h1 a{
+  position: absolute;
+  top:15px;
+  left: 15px;
+  background: url(../img/logo.png) no-repeat;
+  width: 150px;
+  height: 100px;
 }
 
-#area-logo {
-	position: absolute;
-	background: url(../img/topo-imagem-principal.png) no-repeat;
-	width: 100%;
-	height: 250px;
-	top: 0;
-	left: 0;
-	z-index: 1;
+/*Menu- area menu*/
+#area-menu{
+  background: url(../img/topo-imagem-lateral.png);
+  width: 450px;
+  height: 250px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 2; /*Fica na frente, em cima da primeira div*/
 }
 
-.logo a {
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	z-index: 3;
-	background: url(../img/logo.png) no-repeat;
-	width: 151px;
-	height: 66px;
-	text-indent: -9000px;
+/*conteudo menu*/
+#conteudo{
+  margin-left: 90px;
+  padding: 10px;
+  height: 100%;
+}
+/*menu - locais e reserva/*/
+#locais{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid hsl(54, 39%, 52%);
+  border-bottom: 1px solid hsl(54, 39%, 52%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.7rem;
+  color: hsl(54, 32%, 41%);
+}
+#locais a{
+  padding: 5px;
+  background: hsl(52, 34%, 47%);
+  color:hsl(52, 100%, 85%);
+  text-transform: uppercase;
+}
+#menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*menu navegacao*/
+#menu nav ul li {
+  padding-top:5px;
+  padding-bottom: 5px;
 }
 
-#area-menu {
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: url(../img/topo-imagem-lateral.png) no-repeat; ;
-	width: 450px;
-	height: 250px;
-	z-index: 2;
+#menu nav ul li a{
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color:hsl(54, 43%, 30%);
+}
+/*menu depoimentos*/
+#depoimento{
+  margin-top: 10px;
+  width: 226px;
+  height: 164px;
+  background: url(../img/depoimento.png);
 }
 
-#conteudo-menu {
-	margin-left: 90px;
-	margin-right: 15px;
-	padding-top: 15px;
+/*Main*/
+main{
+  background: url(../img/bg-container.png) center repeat-y;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-#menu-locais {
-	border-bottom: 1px solid #b5ab56;
-	border-top: 1px solid #b5ab56;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 0.7em;
-	color: #8b8448;
+/*Texto inicial - main->article*/
+main article{
+  padding: 24px;
+  background: url(../img/bg-area-principal.png) top repeat-x;
+}
+/*Titulos da area principal*/
+main article h2{
+  color: hsl(52, 34%, 47%);
+  font-size: 1.0rem;
+  margin-bottom: 8px;
 }
 
-#menu-locais .locais {
-	float: left;
-	line-height: 2.1em;
+/*Paragrafos da area principal*/
+main article p {
+  font-size: 1rem;
 }
 
-a {
-	text-decoration: none;
+main article p + p{
+  margin-top: 8px;
 }
 
-a.reserva {
-	text-transform: uppercase;
-	background: #a29750;
-	color: #fff5b0;
-	padding: 5px 10px;
-	float: right;
+/*Area lateral - aside*/
+main aside{
+  background: url(../img/bg-area-lateral.png) top repeat-x;
+  padding: 16px;
 }
 
-/* Barra de navegação vertical
-*/
-#menu {
-	margin-top: 15px;
+/*imagens do area lateral*/
+main aside img{
+  width: 150px;
+  height: 96px;
 }
 
-ul {
-	list-style: none;
+/*Titulos da area lateral*/
+main aside h4{
+  text-transform: capitalize;
+  color:hsl(53, 37%, 28%);
+  background: url(../img/ornamento.png) right top no-repeat;
 }
 
-ul#navegacao {
-	float: left;
+/*Textos da area lateral*/
+main aside span{
+  font-size: 0.8rem;
+  color: black;
 }
 
-ul#navegacao a {
-	text-transform: uppercase;
-	font-size: 0.8em;
-	padding: 5px;
-	color: #6e672c;
-	line-height: 30px;
+main aside a{
+  padding:8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(243, 241, 209);
+}
+main aside a:hover{
+  background-color: cornsilk;
 }
 
-ul#navegacao a:hover {
-	background: #fdf6be;
+main aside nav ul li + li{
+  margin-top: 8px;
 }
 
-.depoimento {
-	width: 226px;
-	height: 164px;
-	float: right;
+main aside div{
+  margin-left: 16px;
 }
 
-/* Área de conteúdos
-************************/
-#area-principal {
-	float: left;
-	width: 50%;
-	background: url(../imagens/bg-area-principal.png) top left repeat-x;
-	padding: 15px 0px;
-}
-
-#area-lateral {
-	float: right;
-	width: 50%;
-	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
-	padding: 20px 0px;
-}
-
-.conteudo {
-	margin: 0 auto;
-	width: 90%;
-}
-
-#rodape {
-	clear: both;
-	padding: 16px;
-	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
-	color: #7d7640;
-}
-
-
-/* Formatações de textos
-*/
-h2 {
-	color: #7d7640;
-	font-size: 1.1em;
-	padding: 5px 0px;
-}
-
-p {
-	font-size: 1em;
-	margin-bottom: 10px;
-}
-
-/* Formatações da area lateral
-*/
-#beneficios li {
-	padding: 8px;
-	border-bottom: 1px solid #f3efcb;
-	height: 6em;
-}
-
-#beneficios li a img {
-	float: left;
-	margin-right: 8px;
-}
-
-#beneficios li a p {
-	color: #000;
-	font-size: 0.8em;
-}
-
-#beneficios li a h3 {
-	font-size: 1em;
-	color: #615b2d;
-	padding: 5px 0;
-	background: url(../img/ornamento.png) no-repeat center right;
-}
-
-#beneficios li:hover {
-	background: #f6f3d6;
-	cursor: pointer;
+/*rodapé*/
+footer{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding:16px;
+  background:#fff url(../img/bg-rodape.png) repeat-x top;
+  color: hsl(53, 32%, 37%);
+  font-size: 0.9rem;
 }

@@ -17,4 +17,8 @@
       4. Site Notícias Cidade com layout fixo e css grid.
          - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/noticias-cidade
          - Demo: https://igorsteixeira94.github.io/monorepo-web/noticias-cidade/
+         
+      5. Site Chalé Hotel com layout fluído, css grid e display flex.
+         - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/chale-hotel
+         - Demo: https://igorsteixeira94.github.io/monorepo-web/chale-hotel/
 

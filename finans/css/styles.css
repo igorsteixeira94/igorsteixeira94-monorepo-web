@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.bgcyellow{
+  background: #ffc107;
+}
+
+/*Configuração do label e input - botão menu*/
+header input{
+  display: none;
+}
+
+header label{
+  position: absolute;
+  top:20px;
+  right: 16px;
+}
+
+header label{
+  display: none;
+  cursor: pointer;
+}
+
+header input:checked ~ nav{
+  display: block;
+}
+
+/*Header*/
+header{
+  padding: 16px;
+  width: 100%;
+}
+
+/*Area de navegação*/
+nav ul li a{
+  display: block;
+  color:#fff;
+  padding: 8px;
+}
+
+nav ul li a:hover{
+  color:rgba(0, 0, 0, 0.555);
+}
+/*Botaão Entrar */
+.btn-acess{
+  width: 56px;
+  height: 36px;
+  margin-left: 8px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+
+.btn-acess:hover{
+  background-color: #fff;
+}
+/*Titulos*/
+h1,h2,h4{
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+h1{
+  font-size: 3.5rem;
+}
+h2{
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.caixa{
+  padding: 60px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap:32px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+section img{
+  max-width: 100%;
+}
+
+/*Quando a tela não for responsiva, o menu de navegação deverá aparecer*/
+@media(min-width:600.999px){
+  nav {
+    float: right;
+  }
+  nav ul li {
+    float: left;
+  }
+}
+
+/*Quando a tela for pequena não mostra a navegação e mostra o botão para ativar menu*/
+@media(max-width:600px){
+  label{
+    display: block;
+  }
+  header{
+    display: block;
+  }
+
+  nav{
+    display: none;
+  }
+
+}

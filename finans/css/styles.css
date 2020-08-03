@@ -166,3 +166,77 @@ footer #follow i:hover{
   background-color: black;
   color: #fff;
 }
+
+/*Telas a partir de 600px*/
+@media(min-width:600px){
+  .wrapper{
+    max-width: 600px;
+  }
+  /*Aumento de fontes Titulo*/
+  section.item1 h1{
+    font-size: 4.5rem;
+  }
+  .services h2{
+    font-size: 2rem;
+  }
+  /*Aumento de fontes paragrafos*/
+
+  section.item1 p{
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  #form{
+      flex-direction: row;
+      height: 35px;
+  }
+  #form input{
+    flex:1;
+    height: 35px;
+  }
+}
+/*Telas a partir de 800px*/
+@media(min-width:800px){
+  .wrapper{
+    max-width: 900px;
+  }
+   /*Aumento de fontes Titulo*/
+   section.item1 h1{
+    font-size: 5rem;
+  }
+  #cols2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+  }
+  #cols3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+/*Telas a partir de 1000px*/
+@media(min-width:1050px){
+  .wrapper{
+    max-width: 1100px;
+  }
+  .item1 img{
+    display: block;
+  }
+  #cols2-m{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 24px;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+
+  justify-content: space-between;
+  }
+}

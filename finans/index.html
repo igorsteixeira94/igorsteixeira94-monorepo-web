@@ -10,111 +10,135 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <!-- Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-  <title>Finans</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <title>Finans - Finanças pessoais</title>
 </head>
 
 <body>
-
-  <header class="bgcyellow">
-    <!--Inicio do menu -->
-    <img src="img/logo.png" alt="Logo Finans" width="142">
-    <input type="checkbox" id="btn_menu">
-    <label for="btn_menu">
-      <img src="img/open-menu.svg" width="30px">
-    </label>
-
-    <nav class="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Recursos</a></li>
-        <li><a href="#">Benefícios</a></li>
-        <li><a href="#">Preços</a></li>
-        <li class="btn-acess"><a href="#">Entrar</a></li>
-      </ul>
-    </nav>
+  <header>
+    <!--Menu-->
+    <div class="wrapper">
+      <nav>
+        <img src="img/logo.png" alt="Logo finans">
+        <i class="fas fa-bars"></i>
+      </nav>
+    </div>
   </header>
-  <!--Fim do menu -->
-  <main>
-    <section class="bgcyellow" id="contas">
-      <!--Inicio da seção suas contas-->
+  <!--Suas contas/Cadastro-->
+  <section class="item1">
+    <div class="wrapper" id="cols2-m">
       <div>
-        <h1>Suas contas, descomplicadas</h1>
-        <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida
-          financeira.</p>
-        <input type="email" name="Email" id="email" placeholder="Seu e-mail">
-        <label for="email">Cadastre-se</label>
-        <p>Disponível para
-          <a href="" class="btn btn-outline-light">
-            <i class="fab fa-android"></i>
-          </a>
-          <a href="" class="btn btn-outline-light">
-            <i class="fab fa-apple"></i>
-          </a>
+        <h1>Suas contas,</br> descomplicadas</h1>
+        <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira
+        </p>
+        <div id="form">
+          <input type="text" placeholder="Seu E-mail">
+          <button>Cadastre-se</button>
+        </div>
+      </div>
+      <div class="img">
+        <img src="img/capa-mulher.png" alt="" srcset="">
+      </div>
+    </div>
+
+  </section>
+  <!--Saiba -->
+  <section class="services wrapper" id="cols2">
+    <div class="content wrapper">
+      <h2>Saiba para onde vai o seu dinheiro</h2>
+      <p>Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para
+        onde
+        vai o seu dinheiro.</p>
+      <a href="#">Veja mais</a>
+    </div>
+    <div class="img">
+      <img src="img/saiba.png" alt="Saiba para onde vai seu dinheiro">
+    </div>
+
+  </section>
+  <!--Juros-->
+  <section class="services wrapper" id="cols2">
+    <div class="img">
+      <img src="img/juros.png" alt="Juros">
+    </div>
+    <div class="content">
+      <h2>Pare de pagar juros e economize</h2>
+      <p>
+        Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e receber!
+      </p>
+      <a href="#">Veja mais</a>
+    </div>
+  </section>
+  <!--Pq usar Finans-->
+  <section class="services wrapper" id="cols3">
+    <!--Fácil de usar-->
+
+    <div class="itens">
+      <div class="img">
+        <img src="img/facil.png" alt="Facil de usar">
+      </div>
+      <div class="content">
+        <h3>Fácil de usar</h3>
+        <p>
+          O Finans vai além de básico e permite que você faça controles incíveis, essenciais para suas finanças.
+          Simples
+          como tem que ser!
         </p>
       </div>
-      <div>
-        <img src="img/capa-mulher.png" alt="Mulher segurando uma moeda">
+    </div>
+    <!--Economize seu tempo-->
+    <div class="itens">
+      <div class="img">
+        <img src="img/economize.png" alt="Economize seu tempo">
       </div>
-    </section>
-    <!--Fim da seção suas contas-->
+      <div class="content">
+        <h3>Economize seu tempo</h3>
+        <p>
+          Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa
+          para você!
+        </p>
+      </div>
+    </div>
+    <!--Suporte amigo-->
+    <div class="itens">
+      <div class="img">
+        <img src="img/suporte.png" alt="Suporte amigo">
+      </div>
+      <div class="content">
+        <h3>Suporte amigo</h3>
+        <p>
+          Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e
+          deixar
+          sua vida bem mais fácil!
+        </p>
+      </div>
+    </div>
 
-    <section class="caixa">
-      <!--Inicio da seção saiba mais-->
-      <div>
-        <h2>
-          Saiba para onde vai o seu dinheiro
-        </h2>
-        <p>Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para
-          onde vai o seu dinheiro.</p>
-        <a href="#">Veja mais</a>
-      </div>
-      <div>
-        <img src="img/saiba.png" alt="Saiba para onde vai o seu dinheiro">
-      </div>
-
-    </section>
-    <!--Fim da seção saiba mais-->
-    <section class="caixa">
-      <!--Inicio da seção pagar juros-->
-      <div>
-        <img src="img/juros.png" alt="Pare de pagar juros e economize">
-      </div>
-      <div>
-        <h2>
-          Pare de pagar juros e economize
-        </h2>
-        <p>Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a
-          receber!</p>
-        <a href="#">Veja mais</a>
-      </div>
-
-    </section>
-    <!--Fim da seção saiba mais-->
-    <section id="final" class="caixa">
-      <!--Incio da seção Facil, economize, suporte-->
-      <div>
-        <img src="img/facil.png" alt="">
-        <h4>Fácil de usar</h4>
-        <p>O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças.
-          Simples como tem que ser!</p>
-      </div>
-      <div>
-        <img src="img/economize.png" alt="">
-        <h4>Economize seu tempo</h4>
-        <p>Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa
-          pra você!</p>
-      </div>
-      <div>
-        <img src="img/suporte.png" alt="">
-        <h4>Suporte amigo</h4>
-        <p>Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e
-          deixar sua vida bem mais fácil!</p>
-      </div>
-    </section>
-    <!--Fim da seção Facil, economize, suporte-->
-  </main>
-
+  </section>
+  <footer class="wrapper">
+    <div id="menu-footer">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Recursos</a>
+        </li>
+        <li>
+          <a href="#">Benefícios</a>
+        </li>
+        <li>
+          <a href="#">Preços</a>
+        </li>
+      </ul>
+    </div>
+    <div id="follow">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+  </footer>
 </body>
 
 </html>

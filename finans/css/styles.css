@@ -77,6 +77,7 @@ section.item1 h1{
 #form input{
   color: #3b3b3b;
   margin-bottom: 4px;
+  height: 35px;
 }
 #form button{
   padding: 8px 12px;
@@ -85,6 +86,7 @@ section.item1 h1{
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
+  height: 35px;
 }
 #form button:hover{
   background: rgba(0, 123, 255,0.7);
@@ -193,7 +195,6 @@ footer #follow i:hover{
   }
   #form input{
     flex:1;
-    height: 35px;
   }
 }
 /*Telas a partir de 800px*/

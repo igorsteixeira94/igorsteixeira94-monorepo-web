@@ -22,3 +22,8 @@
          - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/chale-hotel
          - Demo: https://igorsteixeira94.github.io/monorepo-web/chale-hotel/
 
+         
+      6. Site Finas layout responsivo.
+         - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/finans
+         - Demo: https://igorsteixeira94.github.io/monorepo-web/finans/
+

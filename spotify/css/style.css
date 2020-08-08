@@ -1,0 +1,224 @@
+/*Configurações do tamanho de font e cor*/
+:root{
+  font-size: 62.5%;
+  --color-header:#000000;
+  --color-green:#1db954;
+  --color-green-active: #27e669e1;
+  --color-blue:#3b5998;
+  --color-fonts: #fff;
+  --color-title-footer: #879496;
+  --color-icons:#222326;
+}
+
+/*Estilos globais*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,body{
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--color-fonts);
+}
+
+.container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/*Inicio da formatação do header*/
+header{
+  display: block;
+  position: fixed;
+  width: 100%;
+  background: var(--color-header);
+  height: 5rem;
+}
+
+header nav{
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img{
+  width: 10rem;
+}
+header div i{
+  font-size: 2.5rem;
+}
+
+/*Inicio da formatação da main*/
+main{
+  height: calc(100vh - 5rem);
+  background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+}
+
+main section{
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+main section h1{
+  font-size: 4.0rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+main section span{
+  font-size: 1.4rem;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+main section a{
+  display: inline-block;
+  padding: 2rem 5rem;
+
+  background: var(--color-green);
+  color: var(--color-fonts);
+
+  border-radius: 3rem;
+
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+main section a:hover{
+  background: var(--color-green-active);
+}
+
+/*Formatação do footer*/
+footer{
+  padding: 0rem 1rem;
+  background: var(--color-header);
+  padding-bottom: 2rem;
+}
+
+/*Logo*/
+footer img{
+  width: 10rem;
+  margin-top: 4.8rem ;
+}
+
+
+footer .title-list{
+  text-transform: uppercase;
+  color: var(--color-title-footer);
+  font-weight: 600;
+  margin-top: 6.4rem ;
+}
+
+/*Empresa / Comunidades / Links Uteis*/
+footer li{
+  padding-top: 2.4rem;
+}
+
+footer a{
+
+  color: var(--color-fonts);
+  font-size: 1.4rem;
+}
+
+footer a:hover{
+  color: var(--color-green);
+}
+
+/*Redes sociais*/
+footer #followus{
+  margin-top: 6.4rem;
+  display: flex;
+}
+
+footer #followus div{
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  border-radius: 50%;
+  background: var(--color-icons);
+  font-size: 2.5rem;
+
+}
+
+footer #followus div +div{
+  margin-left: 16px;
+}
+
+footer #followus i{
+  display: block;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+footer #followus i:hover{
+  color: var(--color-green);
+}
+
+footer #followus img + img{
+  margin-left: .8rem;
+}
+footer #followus img:hover{
+  color:red;
+  filter: var(--color-green);
+}
+
+/*Idioma e politica (termo e privacidade)*/
+footer #laguage-politics{
+  display: flex;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  color: var(--color-title-footer);
+  font-size: .9rem;
+}
+
+footer #laguage>div{
+  min-width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 5rem;
+
+}
+footer #laguage img{
+  margin: 0;
+  margin-left: .4rem;
+  width: 25px;
+}
+
+footer #politics ul{
+  padding-right: 16px
+}
+
+footer #politics li{
+  display: inline-block;
+  padding-right: 16px
+
+}
+
+footer #politics a{
+  display: block;
+  font-size: .9rem;
+  color: var(--color-title-footer);
+}
+
+footer #politics a:hover{
+  color: var(--color-green);
+}
+

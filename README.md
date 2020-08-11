@@ -27,7 +27,7 @@
          - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/finans
          - Demo: https://igorsteixeira94.github.io/monorepo-web/finans/
 
-      7. Site Clone Spotify layout responsivo..
+      7. Site Clone Spotify layout responsivo.
          - Repositório: https://github.com/igorsteixeira94/monorepo-web/tree/master/spotify
          - Demo: https://igorsteixeira94.github.io/monorepo-web/spotify/
 

@@ -269,6 +269,9 @@ footer #politics a:hover{
     color: var(--color-fonts);
     font-weight: 700;
   }
+  #menu-desktop a:hover{
+    color:var(--color-green);
+  }
 
   #about{
     grid-template-columns: 1fr 1fr 1fr 1fr;
